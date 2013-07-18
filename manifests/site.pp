@@ -90,43 +90,14 @@ node default {
 
 include keyremap4macbook
 
-# launch and add login-item
-include keyremap4macbook::login_item
-
-# enable remapping left control to left control + escape
-keyremap4macbook::remap{ 'controlL2controlL_escape': }
-
-# set the parameter.keyoverlaidmodifier_timeout to 300
-keyremap4macbook::set{ 'parameter.keyoverlaidmodifier_timeout':
-  value => '300'
-}
-
-# set the contents of the private.xml file.
-keyremap4macbook::private_xml{ 'private.xml':
-  content => '<some>xml</some>'
-}
-
 include kindle
 include screen
 include redis
 include phantomjs
 include vagrant
 include virtualbox
-
+include python
 include vim
-vim::bundle { [
-  'scrooloose/syntastic',
-  'sjl/gundo.vim'
-]: }
-
-# Example of how you can manage your .vimrc
-file { "${vim::vimrc}":
-  target  => "/Users/${::boxen_user}/.dotfiles/.vimrc",
-  require => Repository["/Users/${::boxen_user}/.dotfiles"]
-}
-
-# Or, simply,
-file { "${vim::vimrc}": ensure => exists }
 
   # common, useful packages
   package {

@@ -1,4 +1,9 @@
 GITHUBTARBALL
+  remote: boxen/puppet-appcleaner
+  specs:
+    appcleaner (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-autoconf
   specs:
     autoconf (1.0.0)
@@ -9,9 +14,19 @@ GITHUBTARBALL
     boxen (2.3.6)
 
 GITHUBTARBALL
+  remote: boxen/puppet-caffeine
+  specs:
+    caffeine (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-chrome
   specs:
     chrome (1.1.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-clojure
+  specs:
+    clojure (1.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-cord
@@ -27,6 +42,11 @@ GITHUBTARBALL
   remote: boxen/puppet-emacs
   specs:
     emacs (1.1.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-fluid
+  specs:
+    fluid (1.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-gcc
@@ -54,6 +74,26 @@ GITHUBTARBALL
     hub (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-induction
+  specs:
+    induction (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-java
+  specs:
+    java (1.1.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-keyremap4macbook
+  specs:
+    keyremap4macbook (1.0.4)
+
+GITHUBTARBALL
+  remote: boxen/puppet-kindle
+  specs:
+    kindle (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-macvim
   specs:
     macvim (1.0.0)
@@ -74,6 +114,21 @@ GITHUBTARBALL
     openssl (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-phantomjs
+  specs:
+    phantomjs (2.0.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-python
+  specs:
+    python (1.2.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-redis
+  specs:
+    redis (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-repository
   specs:
     repository (2.2.0)
@@ -84,9 +139,29 @@ GITHUBTARBALL
     ruby (6.1.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-screen
+  specs:
+    screen (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-vagrant
+  specs:
+    vagrant (2.0.8)
+
+GITHUBTARBALL
+  remote: boxen/puppet-vim
+  specs:
+    vim (1.0.5)
+
+GITHUBTARBALL
+  remote: boxen/puppet-virtualbox
+  specs:
+    virtualbox (1.0.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-xquartz
@@ -104,25 +179,40 @@ GITHUBTARBALL
     stdlib (4.1.0)
 
 DEPENDENCIES
+  appcleaner (= 1.0.0)
   autoconf (= 1.0.0)
   boxen (= 2.3.6)
+  caffeine (= 1.0.0)
   chrome (= 1.1.1)
+  clojure (= 1.2.0)
   cord (= 1.0.0)
   dnsmasq (= 1.0.0)
   emacs (= 1.1.0)
+  fluid (= 1.0.0)
   gcc (= 2.0.1)
   git (= 1.2.4)
   hipchat (= 1.0.7)
   homebrew (= 1.2.0)
   hub (= 1.0.0)
+  induction (= 1.0.0)
   inifile (= 0.9.0)
+  java (= 1.1.0)
+  keyremap4macbook (= 1.0.4)
+  kindle (= 1.0.1)
   macvim (= 1.0.0)
   nginx (= 1.4.2)
   nodejs (= 3.2.7)
   openssl (= 1.0.0)
+  phantomjs (= 2.0.2)
+  python (= 1.2.1)
+  redis (= 1.0.0)
   repository (= 2.2.0)
   ruby (= 6.1.1)
+  screen (= 1.0.0)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
+  vagrant (= 2.0.8)
+  vim (= 1.0.5)
+  virtualbox (= 1.0.4)
   xquartz (= 1.1.0)
 

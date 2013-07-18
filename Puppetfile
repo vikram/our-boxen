@@ -34,7 +34,6 @@ github "stdlib",     "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",       "1.0.0"
 github "xquartz",    "1.1.0"
 
-
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
@@ -56,3 +55,7 @@ github "induction", "1.0.0"
 github "keyremap4macbook", "1.0.4"
 github "vim", "1.0.5"
 github "kindle", "1.0.1"
+
+github "java",     "1.1.0"
+github "python",     "1.2.1"
+
