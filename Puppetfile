@@ -53,9 +53,9 @@ github "caffeine", "1.0.0"
 github "fluid", "1.0.0"
 github "induction", "1.0.0"
 github "keyremap4macbook", "1.0.4"
+github "python",     "1.2.1"
 github "vim", "1.0.5"
 github "kindle", "1.0.1"
-
 github "java",     "1.1.0"
-github "python",     "1.2.1"
+
 
