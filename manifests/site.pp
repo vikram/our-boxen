@@ -98,6 +98,10 @@ include vagrant
 include virtualbox
 include python
 include vim
+include postgresql
+include freetds
+include zsh
+include osxfuse
 
   # common, useful packages
   package {
