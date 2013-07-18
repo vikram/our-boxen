@@ -75,6 +75,14 @@ node default {
   include ruby::1_9_3
   include ruby::2_0_0
 
+  include xquartz
+  include emacs
+  include macvim
+  include cord
+  include chrome
+  include chrome::canary
+  include hipchat
+
   # common, useful packages
   package {
     [
