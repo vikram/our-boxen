@@ -49,6 +49,11 @@ GITHUBTARBALL
     fluid (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-freetds
+  specs:
+    freetds (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-gcc
   specs:
     gcc (2.0.1)
@@ -114,9 +119,19 @@ GITHUBTARBALL
     openssl (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-osxfuse
+  specs:
+    osxfuse (1.1.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-phantomjs
   specs:
     phantomjs (2.0.2)
+
+GITHUBTARBALL
+  remote: boxen/puppet-postgresql
+  specs:
+    postgresql (1.0.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-python
@@ -149,6 +164,11 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-sysctl
+  specs:
+    sysctl (1.0.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-vagrant
   specs:
     vagrant (2.0.8)
@@ -178,6 +198,11 @@ GITHUBTARBALL
   specs:
     stdlib (4.1.0)
 
+GITHUBTARBALL
+  remote: samjsharpe/puppet-ohmyzsh
+  specs:
+    ohmyzsh (1.0.0)
+
 DEPENDENCIES
   appcleaner (= 1.0.0)
   autoconf (= 1.0.0)
@@ -189,6 +214,7 @@ DEPENDENCIES
   dnsmasq (= 1.0.0)
   emacs (= 1.1.0)
   fluid (= 1.0.0)
+  freetds (= 1.0.0)
   gcc (= 2.0.1)
   git (= 1.2.4)
   hipchat (= 1.0.7)
@@ -202,8 +228,11 @@ DEPENDENCIES
   macvim (= 1.0.0)
   nginx (= 1.4.2)
   nodejs (= 3.2.7)
+  ohmyzsh (= 1.0.0)
   openssl (= 1.0.0)
+  osxfuse (= 1.1.0)
   phantomjs (= 2.0.2)
+  postgresql (= 1.0.4)
   python (= 1.2.1)
   redis (= 1.0.0)
   repository (= 2.2.0)
@@ -211,6 +240,7 @@ DEPENDENCIES
   screen (= 1.0.0)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
+  sysctl (= 1.0.0)
   vagrant (= 2.0.8)
   vim (= 1.0.5)
   virtualbox (= 1.0.4)

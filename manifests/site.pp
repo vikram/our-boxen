@@ -100,7 +100,7 @@ include python
 include vim
 include postgresql
 include freetds
-include zsh
+include ohmyzsh
 include osxfuse
 
   # common, useful packages

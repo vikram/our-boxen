@@ -57,9 +57,9 @@ github "python",     "1.2.1"
 github "vim", "1.0.5"
 github "kindle", "1.0.1"
 github "java",     "1.1.0"
-
+github "sysctl", "1.0.0"
 github "postgresql", "1.0.4"
 github "osxfuse", "1.1.0"
 github "freetds", "1.0.0"
-github "zsh", "1.0.0"
+github "ohmyzsh", "1.0.0", :repo => "samjsharpe/puppet-ohmyzsh"
 
