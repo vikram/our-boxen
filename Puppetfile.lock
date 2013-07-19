@@ -134,11 +134,6 @@ GITHUBTARBALL
     postgresql (1.0.4)
 
 GITHUBTARBALL
-  remote: boxen/puppet-python
-  specs:
-    python (1.2.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-redis
   specs:
     redis (1.0.0)
@@ -202,6 +197,11 @@ GITHUBTARBALL
   remote: samjsharpe/puppet-ohmyzsh
   specs:
     ohmyzsh (1.0.0)
+
+GITHUBTARBALL
+  remote: vikram/puppet-python
+  specs:
+    python (1.2.1)
 
 DEPENDENCIES
   appcleaner (= 1.0.0)
