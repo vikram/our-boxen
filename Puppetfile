@@ -61,5 +61,7 @@ github "sysctl", "1.0.0"
 github "postgresql", "1.0.4"
 github "osxfuse", "1.1.0"
 github "freetds", "1.0.0"
+github "osx", "1.5.0"
+github "zsh", "1.0.0"
 github "ohmyzsh", "1.0.0", :repo => "samjsharpe/puppet-ohmyzsh"
 
